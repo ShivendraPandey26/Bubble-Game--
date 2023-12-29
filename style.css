@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}   
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background: #93eca2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 85%;
+    height: 80%;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main-bar {
+    width: 100%;
+    height: 15%;
+    background: #1c772b;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.element h2 {
+    color: #fff;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    padding: 10%;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Bubble-section {
+    height: calc(100% - 20%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #000; */
+    overflow: hidden;
+}
+h1 {
+    font-size: 100%;
+}
+
+.Bubble {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    background-color: #1c772b;
+    border-radius: 50%;
+    margin: 6px;
+    margin-top: 3px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    /* box-shadow: 4px 4px 10px black; */
+    transition: all 0.5s ease;
+}
+
+.Bubble:hover {
+    transform: scale(0.9);
+    background-color: #134d1c;
+}
+
+#para {
+    text-align: center;
+    color: red;
+}
