@@ -4,7 +4,7 @@ var hitNumber = 0 ;
 
 function makeBubbles() {
 for (let i = 0; i < 300; i++) {
-    var Rnumber = Math.floor(Math.random() * 20);
+    var Rnumber = Math.floor(Math.random() * 15);
     document.querySelector(".Bubble-section").innerHTML +=
     `<div class="Bubble">${Rnumber}</div>`;
 }
